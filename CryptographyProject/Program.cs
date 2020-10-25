@@ -25,6 +25,18 @@ namespace CryptographyProject
             // Stream writer and Stream reader
             private StreamWriter StreamWriter;
             private StreamReader StreamReader;
+
+            // internal strings
+            private string mKey;
+            private string mIV;
+
+            // the Key and the Inicialization Vector
+            private byte[] Key;
+            private byte[] IV;
+
+            // password view
+            private string password_string;
+            private byte[] password_bytes;
         }
     }
 }
