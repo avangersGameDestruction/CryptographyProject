@@ -6,7 +6,11 @@ namespace CryptographyProject
     {
         static void Main(string[] args)
         {
-            
+        }
+
+        public sealed class Cryption
+        {
+
         }
     }
 }
